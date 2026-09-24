@@ -1,0 +1,32 @@
+{
+  "@@locale": "en",
+  "appName": "Laith Taha",
+  "appDescription": "Flutter Developer & Software Engineer",
+  "home": "Home",
+  "about": "About",
+  "skills": "Skills",
+  "projects": "Projects",
+  "contact": "Contact",
+  "viewProjects": "View Projects",
+  "getInTouch": "Get in Touch",
+  "learnMore": "Learn More",
+  "projectTechnologies": "Technologies",
+  "projectGithub": "GitHub",
+  "projectLive": " link ",
+  "projectNotFound": "Project not found",
+  "noProjects": "No projects available",
+  "backToProjects": "Back to Projects",
+  "retry": "Retry",
+  "projectGallery": "Gallery",
+  "heroGreeting": "Hi, my name is {name}.",
+  "@heroGreeting": {
+    "placeholders": {
+      "name": {}
+    }
+  },
+  "viewCv": "View my CV",
+  "login": "Login",
+  "admin": "Admin",
+  "menu": "Menu",
+  "cv": "CV"
+}

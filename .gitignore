@@ -1,0 +1,167 @@
+# ============================================================
+
+# Flutter / Dart
+
+# ============================================================
+
+.dart_tool/
+.pub/
+.pub-cache/
+build/
+coverage/
+
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter_tool/
+.packages
+
+**/doc/api/
+**/ios/Flutter/.last_build_id
+
+# Flutter generated files
+
+app.*.symbols
+app.*.map.json
+
+# ============================================================
+
+# IDE
+
+# ============================================================
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+.vscode/
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# ============================================================
+
+# OS
+
+# ============================================================
+
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# ============================================================
+
+# Android
+
+# ============================================================
+
+/android/.gradle/
+/android/local.properties
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Android signing files
+
+*.jks
+*.keystore
+key.properties
+
+# ============================================================
+
+# iOS / macOS
+
+# ============================================================
+
+/ios/Pods/
+/ios/.symlinks/
+/ios/Flutter/ephemeral/
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/flutter_export_environment.sh
+
+/macos/Pods/
+/macos/Flutter/ephemeral/
+
+# ============================================================
+
+# Environment / Secrets
+
+# ============================================================
+
+.env
+.env.*
+!.env.example
+
+*.pem
+*.p12
+*.pfx
+*.key
+*.crt
+
+service-account*.json
+*-service-account*.json
+google-credentials*.json
+credentials*.json
+
+# ============================================================
+
+# Firebase local/generated files
+
+# ============================================================
+
+.firebase/
+firebase-debug.log
+firebase-debug.*
+
+# Firebase Emulator data
+
+.emulator/
+firebase-export/
+
+# ============================================================
+
+# Local Firestore seed data
+
+# ============================================================
+
+firestore_admin_seed.json
+firestore_skills_seed.json
+
+# ============================================================
+
+# Node / JavaScript
+
+# ============================================================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Local package-manager caches
+
+.npm/
+.yarn/
+
+# ============================================================
+
+# Firebase Functions / Local tooling
+
+# ============================================================
+
+functions/node_modules/
+functions/.env
+functions/.env.*
+functions/lib/
+functions/dist/
+
+# ============================================================
+
+# Miscellaneous generated files
+
+# ============================================================
+
+*.log
+.DS_Store

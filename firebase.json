@@ -1,0 +1,17 @@
+{
+  "flutter": {
+    "platforms": {
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "laith-portfolio-617d6",
+          "configurations": {
+            "web": "1:604734298824:web:94d4ce33a2c865b6c1a3fd"
+          }
+        }
+      }
+    }
+  },
+  "firestore": {
+    "rules": "firestore.rules"
+  }
+}

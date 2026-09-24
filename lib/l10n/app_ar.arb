@@ -1,0 +1,32 @@
+{
+  "@@locale": "ar",
+  "appName": "ليث طه",
+  "appDescription": "مطور Flutter ومهندس برمجيات",
+  "home": "الرئيسية",
+  "about": "نبذة عني",
+  "skills": "المهارات",
+  "projects": "المشاريع",
+  "contact": "تواصل معي",
+  "viewProjects": "استعرض المشاريع",
+  "getInTouch": "تواصل معي",
+  "learnMore": "اعرف المزيد",
+  "projectTechnologies": "التقنيات",
+  "projectGithub": "GitHub",
+  "projectLive": " الرابط ",
+  "projectNotFound": "المشروع غير موجود",
+  "noProjects": "لا توجد مشاريع متاحة",
+  "backToProjects": "العودة إلى المشاريع",
+  "retry": "إعادة المحاولة",
+  "projectGallery": "معرض الصور",
+  "heroGreeting": "مرحبًا، أنا {name}.",
+  "@heroGreeting": {
+    "placeholders": {
+      "name": {}
+    }
+  },
+  "viewCv": "عرض سيرتي الذاتية",
+  "login": "تسجيل الدخول",
+  "admin": "لوحة التحكم",
+  "menu": "القائمة",
+  "cv": "السيرة الذاتية"
+}

@@ -1,0 +1,90 @@
+name: portfolio_laith
+description: A modern interactive portfolio built with Flutter Web.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.9.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^4.0.0
+  cloud_firestore: ^6.0.0
+  firebase_auth: ^6.0.0
+
+  # State Management
+  flutter_bloc: ^9.1.1
+  equatable: ^2.0.7
+
+  # Routing
+  go_router: ^17.0.0
+  
+
+  # Localization
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.2
+
+  # UI / Fonts
+  
+  
+  
+
+  flutter_svg: ^2.2.1
+  flutter_colorpicker: ^1.1.0
+
+  # Utilities
+  url_launcher: ^6.3.2
+  shared_preferences: ^2.5.3  
+  # UI visibility / scroll reveal
+  visibility_detector: ^0.4.0+2
+  
+
+dependency_overrides:
+  firebase_core_web: 3.10.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  generate: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/projects/keeply/
+    - assets/projects/smart_garden/
+
+  fonts:
+    - family: Tajawal
+      fonts:
+        - asset: assets/fonts/Tajawal/Tajawal-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Tajawal/Tajawal-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Tajawal/Tajawal-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Tajawal/Tajawal-ExtraBold.ttf
+          weight: 800
+
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-subset/Inter-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Inter-subset/Inter-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Inter-subset/Inter-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Inter-subset/Inter-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Inter-subset/Inter-ExtraBold.ttf
+          weight: 800
